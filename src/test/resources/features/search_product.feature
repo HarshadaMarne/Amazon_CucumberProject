@@ -8,6 +8,7 @@ Feature: Search a product feature
       When the user enter the product name
       Then the product results should be displayed
 
+
 #    Scenario Outline: Successful login with valid credentials
 #      Given user is on home page
 #      When the user navigates to the login page
