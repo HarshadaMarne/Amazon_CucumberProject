@@ -53,23 +53,6 @@ public class StepDefinitions {
         Assert.assertEquals(text,"\"mobiles\"");
     }
 
-    @And("user enters {string} and {string}")
-    public void userEntersAnd(String arg0, String arg1) {
-
-    }
-
-    @Given("user is on home page")
-    public void userIsOnHomePage() {
-    }
-
-    @When("the user navigates to the login page")
-    public void theUserNavigatesToTheLoginPage() {
-    }
-
-    @Then("message displayed login successfully")
-    public void messageDisplayedLoginSuccessfully() {
-    }
-
     @Given("user is logged in")
     public void userIsLoggedIn() {
         System.out.println("From background");
